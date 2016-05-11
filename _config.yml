@@ -1,0 +1,21 @@
+# Site settings
+title: Knowledgebase
+email: devnull@hack.more.systems
+description: "Collection of awesome ideas and projects for the future."
+baseurl: ""
+url: "http://x4mp.github.io/knowledgebase/"
+github_username:  x4mp
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+kramdown:
+    input: GFM
+
+# github gems
+# (see https://help.github.com/categories/github-pages-features/)
+gems:
+  - jekyll-sitemap
+  - jekyll-redirect-from
+#  - jekyll-mentions

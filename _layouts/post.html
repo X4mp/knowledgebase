@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<div class="post">
+
+  <h2>{{ page.title }}</h2>
+
+  <article class="post-content">
+  {{ content }}
+  </article>
+
+  <footer>
+     <hr>
+     <p class="meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • by {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+   </footer>
+
+</div>
